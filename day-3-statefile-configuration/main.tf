@@ -3,11 +3,11 @@ resource "aws_instance" "name" {
     instance_type = var.instance_type
     key_name = var.key
     tags = {
-        Name = "windows"
+        Name = "windows-ec2"
     }
 }
 
 resource "aws_s3_bucket" "name" {
     bucket = "usdvushvcsihvc"
-  
+
 }
